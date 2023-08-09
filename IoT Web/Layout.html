@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Layout</title>
+    <link rel="shortcut icon" href="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/361631328_1344777873053787_3699156726687477094_n.jpg?_nc_cat=108&cb=99be929b-59f725be&ccb=1-7&_nc_sid=730e14&_nc_ohc=aZGdrfjYKzYAX-aHzJO&_nc_ht=scontent.fsgn2-7.fna&oh=00_AfCp7kcQS6-0wky4CIsPpROnqUYGdMGgcilbRUCx08IwUA&oe=64BE11DD" type="image/x-icon">
+    <link rel="stylesheet" href="Layout.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="box1">
+            <img id="logo_img" src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/362253604_1344777399720501_5552814094061504757_n.jpg?_nc_cat=107&cb=99be929b-59f725be&ccb=1-7&_nc_sid=730e14&_nc_ohc=ELlt0vbn23MAX-nzUEW&_nc_ht=scontent.fsgn2-3.fna&oh=00_AfCgljXfGYqUtZPs0kmoKiys_2zrChv_5lf3fNWUWq8q3g&oe=64BE57DC" align="right" alt="img" style="width: 7%; margin-right: 2%;">
+            <h1 style="color: red; font-family: Times" class="name"> ĐỒ ÁN 2 </h1>
+            <h1 style="color: yellow ; font-family: Times" class="name"> ĐỒNG HỒ THỜI GIAN THỰC KẾT HỢP THÔNG TIN THỜI TIẾT VÀ CHẨT LƯỢNG KHÔNG KHÍ </h1>
+            <a href="https://realtimeclock-weather-default-rtdb.firebaseio.com/" 
+            style="color: wheat" class="name"  target="_blank">Google Firebase</a>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box3">
+            <div class="row1">
+                <div class="row2">
+                    <div class="Slide">
+                        <img id="cb1_img" src="./image/tempon.png" alt="img" style="width: 9vw;" class="CB">
+                        <!-- <div id="SliderNgangValue1" style="color: white;"></div>
+                        <input type="range" min="0" max="1" value="1" class="slider" id="SliderNgangId1"> -->
+                        <h3 style="color: black;" class="text">
+                            <i class="fas fa-thermometer-half" style="color:#9e0a05;"></i>
+                            <span style="color: white;">Temp:</span>
+                            <span style="color: red ;" id="Temperature">
+                                <span style="color: white;">None</span>
+                            </span>
+                            <span style="color: red;">°C</span>
+                        </h3>
+                    </div>
+                    <div class="Slide">
+                        <img id="cb2_img" src="./image/humon.png" alt="img" style="width: 9vw;" class="CB">
+                        <!-- <div id="SliderNgangValue2" style="color: white;"></div>
+                        <input type="range" min="0" max="1" value="1" class="slider" id="SliderNgangId2"> -->
+                        <h3 style="color: black;" class="text">
+                            <i class="fas fa-tint" style="color:#00add6;"></i>
+                            <span style="color: white;">Hum:</span>
+                            <span style="color: blue ;" id="Humidity">
+                              <span style="color: white;">None</span>
+                            </span>
+                            <span style="color: blue;">%</span>
+                        </h3>
+                    </div> 
+                    <div class="Slide">
+                        <img id="cb3_img" src="./image/air.png" alt="img" style="width: 9vw;" class="CB">
+                        <!-- <div id="SliderNgangValue4" style="color: white;"></div>
+                        <input type="range" min="0" max="1" value="1" class="slider" id="SliderNgangId4"> -->
+                        <h3 style="color: black;" class="text">
+                            <i class="fas fa-angle-double-down" style="color:#e1e437;"></i>
+                            <span style="color: white;">Air Quality:</span>
+                            <span style="color: cyan ;" id="AirQuality">
+                                <span style="color: white;">None</span>
+                            </span>
+                            <span style="color: cyan;">PPM</span>
+                        </h3>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="box4"> 
+            <div class="clock">
+                <div class="hour">
+                    <div   div class="hr" id="hr"></div>
+                </div>
+                <div class="min">
+                    <div class="mn" id="mn"></div>
+                </div>
+                <div class="sec">
+                    <div class="sc" id="sc"></div>
+                </div>
+            </div>
+        </div>
+        <div class="box5">
+            <div class="card">
+                <div class="card_img">
+                        <!-- <img src="./img/avatarfbhao.jpg" alt="img" width="300px"> -->
+                    <img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/361896338_1344773133054261_2179247302539393234_n.jpg?_nc_cat=109&cb=99be929b-59f725be&ccb=1-7&_nc_sid=730e14&_nc_ohc=vTJkjdjCHWMAX-3dfIe&_nc_ht=scontent.fsgn2-4.fna&oh=00_AfBJ-HxmzT2WiNHMkLeebIhfQLm5tU5YfCpIb-fgJmZMPg&oe=64BE0A2D" alt="img" width="300px">
+                </div>
+                <h2 > Nguyễn Văn Hào</h2>
+                <p style="margin: 5px;"><i>(20119223)</i></p>
+                <p style="margin: 5px;"><i>(Computer Engineering)</i></p>
+                <div class="card__social">
+                    <a href="https://github.com/nguyenhao223" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/nguyenhao2908/" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@nghao5970" target="_blank">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.instagram.com/nguyenhao5970/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCtnPG4HDRRpxDMVa7aZxjGQ" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="card_more">
+                        <h3><i class="fas fa-birthday-cake"></i>: 29-08-2002</h3>
+                        <h3><i class="fas fa-mars"></i>: Male</h3>
+                        <h3><i class="fas fa-phone-square-alt"></i>: 0975165970</h3>
+                        <h3><i class="fas fa-envelope"></i>: 20119223@student.hcmute.edu.vn</h3>
+                        <h3><i class="fas fa-location-arrow"></i>: 45 Tân Lập, Đông Hòa, Dĩ An, Bình Dương </h3>
+                </div>
+               <a href="https://www.facebook.com/nguyenhao2908/" target="_blank"> <button > Follow Me </button></a>
+            </div>
+        </div>
+        <div class="box6">
+            <div class="card">
+                <div class="card_img">
+                    <img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/362255058_1344773136387594_5312810010516352418_n.jpg?_nc_cat=108&cb=99be929b-59f725be&ccb=1-7&_nc_sid=730e14&_nc_ohc=QqL5hSICg_4AX_4lGNb&_nc_ht=scontent.fsgn2-7.fna&oh=00_AfAbLvNVXgwsYCrhMtDbPsB8xQYmZFywgH03g6tVI_R2fQ&oe=64BDB204" alt="img" width="300px">
+                </div>
+                <h2 > Mai Lê Thanh Hải</h2>
+                <p style="margin: 5px;"><i>(20119219)</i></p>
+                <p style="margin: 5px;"><i>(Computer Engineering)</i></p>
+                <div class="card__social">
+                    <a href="https://github.com/MaileThHai/" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/mai.hai.5680899/" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="card_more">
+                    <h3><i class="fas fa-birthday-cake"></i>: 19-06-2002</h3>
+                    <h3><i class="fas fa-mars"></i>: Male</h3>
+                    <h3><i class="fas fa-phone-square-alt"></i>: 0909418984</h3>
+                    <h3><i class="fas fa-envelope"></i>: 20119219@student.hcmute.edu.vn</h3>
+                    <h3><i class="fas fa-location-arrow"></i>: 17/33 Đ53, Hiệp Bình Chánh, TP Thủ Đức </h3>
+                </div>
+                <a href="https://www.facebook.com/mai.hai.5680899/" target="_blank">
+                    <button>Follow Me</button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script> 
+    <script src="Layout.js"></script>
+    <script src="clock.js"></script>  
+</body>
+</html>
