@@ -1,7 +1,7 @@
 # Real-time_clock_that_combines_weather_information_and_air_quality
 Feature:
 - Reak time analog clock display on touch screen.
-- Set up time, wake time like normal clock.
+- Set up time, wake up time like normal clock.
 - Provide temperature, moisture and air quality(CO2).
 - Alert send to phone(sms) when the temperature cross the threshold.
 - Real time database on Google Firebase.
