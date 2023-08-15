@@ -7,5 +7,5 @@ Feature:
 - Real time database on Google Firebase.
 - Simple Website to set up time and monitor all information.
 # This project using ESP32 as core, with DS1307 to get real time, TFT touch screen for display, DHT11 for temperature and moisture, MQ-135 for air quality
-Schematic circuit, PCB and PCB box make by easyEDA
+Schematic circuit, PCB and PCB box make with easyEDA/easyEDA pro edition
  
